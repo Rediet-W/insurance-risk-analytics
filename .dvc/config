@@ -1,0 +1,4 @@
+[core]
+    remote = localstorage
+['remote "localstorage"']
+    url = ../../alpha_care_dvc_storage
