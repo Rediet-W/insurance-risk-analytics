@@ -1,0 +1,20 @@
+cat <<EOF > .gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Data files (Crucial: we don't track raw data in Git)
+data/*
+!data/.gitkeep
+EOF
+touch data/.gitkeep
