@@ -18,3 +18,10 @@ data/*
 !data/.gitkeep
 EOF
 touch data/.gitkeep
+
+cat <<EOF >> .gitignore
+
+# Allow Git to track DVC metadata files inside data directory
+!data/**/.gitignore
+!data/**/*.dvc
+EOF
